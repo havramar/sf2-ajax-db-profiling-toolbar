@@ -24,13 +24,18 @@ It grabs profiling pages for each Ajax request and parses for Queries Count and 
 
 ## Installation
 
-Get the file as it is:
-```
-app/Resources/WebProfilerBundle/views/Profiler/base_js.html.twig
-```
+1. Get the file as it is:
 
-and put it in your Symfony2 project.
+  ```
+  app/Resources/WebProfilerBundle/views/Profiler/base_js.html.twig
+  ```
+  and put it in your Symfony2 project.
+2. Clear cache (even in debug mode):
 
-Tested with Symfony2 v2.6.0.
+  ```
+  php app/console cache:clear
+  ```
+
+Tested with Symfony2 v2.6.[0,1].
 
 Happy Profiling ! 
