@@ -36,6 +36,6 @@ It grabs profiling pages for each Ajax request and parses for Queries Count and 
   php app/console cache:clear
   ```
 
-Tested with Symfony2 v2.6.[0,1].
+Tested with Symfony2 v2.6.[0-3].
 
 Happy Profiling ! 
