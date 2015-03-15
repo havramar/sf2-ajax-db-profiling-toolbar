@@ -6,7 +6,7 @@ sf2-ajax-db-profiling-toolbar
 ![Example](db_queries.png)
 
 Symfony2 introduced new [Ajax requests profiling](http://symfony.com/blog/new-in-symfony-2-6-ajax-requests-in-the-web-debug-toolbar) in 2.6 version.
-One thing that I was missing still few details about these requests:
+There is lack of following details of these requests:
 
 * how many database queries were made,
 * how much time they took,
@@ -18,7 +18,7 @@ will use templates [overriding feature](http://symfony.com/doc/current/book/temp
 
 Now database profiling in Symfony2 application with Ajax should be much easier.
 
-## How it works?
+## How does it work?
 
 It grabs profiling pages for each Ajax request and parses for Queries Count and Queries Time.
 
